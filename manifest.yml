@@ -1,0 +1,6 @@
+---
+applications:
+- name: cicd-jenkins-example
+  instances: 1
+  memory: 800m
+  path: target/hello-1.0.war
